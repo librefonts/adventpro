@@ -1,0 +1,11 @@
+commit: HEAD
+process_files: [AdventPro-Light.ttf.ttx, AdventPro-SemiBold.ttf.ttx, AdventPro-Medium.ttf.ttx,
+  AdventPro-Bold.ttf.ttx, AdventPro-Regular.ttf.ttx, AdventPro-ExtraLight.ttf.ttx,
+  AdventPro-Thin.ttf.ttx, src/AdventPro-ExtraLight.otf.ttx, src/AdventPro-Medium.otf.ttx,
+  src/AdventPro-Thin.otf.ttx, src/AdventPro-Light.otf.ttx, src/AdventPro-Bold.otf.ttx,
+  src/AdventPro-SemiBold.otf.ttx, src/AdventPro-Regular.otf.ttx, src/AdventPro-Light-TTF.sfd,
+  src/AdventPro-Regular-TTF.sfd, src/AdventPro-Bold-TTF.sfd, src/AdventPro-Thin-TTF.sfd,
+  src/AdventPro-Medium-TTF.sfd, src/AdventPro-SemiBold-TTF.sfd, src/AdventPro-ExtraLight-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
